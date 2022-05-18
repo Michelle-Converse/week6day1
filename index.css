@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#mainPage {
+    background-color: lightgrey;
+    color: black;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+.product {
+    border: 1px solid lightslategray;
+    background-color: white;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+ 
+}
+
+#button {
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: 50px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.darkMode #display{
+    background-color: #111;
+    color: white;
+}
+
+.darkMode .product  {
+    background-color: #222;
+    color: white;
+}
+
+.darkMode #button  {
+    background-color: #222;
+    color: white;
+    border-color: lightslategray;
+}
+
+#button:hover {
+    cursor: pointer;
+}
